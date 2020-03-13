@@ -1,0 +1,97 @@
+Choose Your Adventure!
+Scholar:
+	You are a scholar that has been studying the art of magic. You
+	have made a breakthrough that could change humanity
+	and has led you to your current situation. Will you
+	stay in your tower and continue your studies? Or, will
+	you journey to the Capital to present your work?
+	Choose: Stay? or Journey?
+
+	STAY: 	You decide to keep your work wo yourself and continue to 
+		study it. Unfortunately, one of your potions exploded
+		in your face, causing immense pain and partial blindness.
+		You scury to find a neutralizing potion; hopefully the one
+		you choose is the correct one. Do you pick up the blue or
+		purple bottle?
+		Choose: Blue Bottle? or Purple Bottle?
+	
+		BLUE: 	Ahhh, now that feels better. The blue bottle 
+			neutralizes the effects and you can see again.
+			However, you start to feel really tingly in your
+			limbs. Checking the label, you realize you chose the 
+			transfromation potion! Oh no! You double over in pain,
+			your limbs extend and turn a scaly green, your eyes 
+			become slitted, and you begin to grow in size, destroying
+			the work you studied hard to obtain.
+			At the end of your transformation, you have become a dragon!
+			Everything in your wizards tower has been destroyed, and now
+			you can't even transform back to fix anything. You are now
+			an angry green dragon whose lair is a destroyed wizard 
+			tower. END
+		PURPLE: Ugh, what a bitter taste! Wait, your throat is closing up!
+			What is happening? You're choking! It looks like you chose
+			a bottle of poison! Unfortuantly, you're blind and you can't 
+			breathe anymore, there is no way you could find the antidote.
+			You fall to the floor suffocating, and you die within the 
+			hour. Your work will forever be lost to the ages. END
+
+	JOURNEY: You decide to journey to the Capital to share your work with the
+		 world. On your journey, you stumble into clearing where you find
+		an adventurer fighting a gruesome monster. They seem very skilled,
+		but the monster also looks very tough. It stands at least 7 feet 
+		tall, with thick scales, and long claws! Do you help or move along?
+		Choose: Help? or Move Along?
+
+		HELP: You decide to help the poor adventurer, and just in the 
+			knick of time! The adventurer is trapped under the 
+			enormous claws of the beast! 
+			"Hey Stupid!" You yell. The beast whips its head to stare
+			at you. It looks like it's about to charge! Quick, what do
+			use to defend yourself? Do you use the sturdy looking stick
+			on the ground next to you? Or do you attempt to use the
+			new magic you recently learned about from your studies?
+			Choose: Stick? or Magic?
+
+			STICK: The beast charges! You quickly pick up the stick and
+				attempt to bash the beast with the stick, but that
+				was stupid. The beast is obviously not going to be
+				hurt by a stick. As soon as the stick hits the beast
+				it breaks in two, leaving you defenseless. The monster
+				uses its enormous claws to slash at you! In on swipe
+				you are decapitated! Your last thought was "All my 
+				work wasted trying to be a hero." END
+		
+			MAGIC: The beast charges! You quickly try to summon a flame
+				to protect you, but your lack of practice and nerves
+				causes you to summon an explosion instead! This 
+				inadvertently saves your life because you are thrown
+				back and the monsters face is serverely burned! This 
+				gives the adventurer enough time to finish it off. He
+				lunges at the beast with his sword and stabs it in the 
+				heart, ending its life. 
+				In the aftermath of the battle, you are still groggy 
+				from the explosion. The adventurer runs to your side to
+				help you up.
+				"Thank you so much for coming to my aid! I don't know 
+				what I would have done if you had not shown up! Please,
+				let me return the favor by travelling with you to repay 
+				this debt."
+
+		MOVE ALONG: You decided to leave the adventurer to their fate and 
+				continue on your journey. You eventually make it to
+				Capital where all important discoveries are introduced
+				and pattented. It is late at night when you arrive, but
+				on your way to a tavern you make a turn into a sketchy
+				alleyway. Two men in all balck with masks appear! They
+				pull out knives and slowly walk toward you. You begin 
+				turn back out of the alley, but all of a sudden there
+				is immense pain in your side! You look down and see a 
+				knife protruding from you and another man in all black
+				standing behind you. You slowly start to lose 
+				conciousness and fall to the floor. The last thing you
+				hear before the world turns black is the voice of one
+				of the men saying, "Now, what do we have hear? A scholar, 
+				eh? Wonder if we'll get rich off his work? HAHAHA!" END
+
+
+
