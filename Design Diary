@@ -1,0 +1,8 @@
+03/13/2020
+
+For this milestone, I plan on doing a text based choose your own adventure. It takes the choices from the user and guides
+them through an epic adventure! I already have most of one branch done in the text file I uploaded. I am very excited to 
+write the code for this. I have not started yet, but I plan on creating a recursive function that takes the string input of 
+the user and goes along the path with the two choices they have until it reaches the end of the story. I don't plan on making 
+it a very long story, but I already have so many ideas that I could build from this. For now, I want to keep writing the story
+line.
