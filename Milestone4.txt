@@ -1,11 +1,10 @@
 Choose Your Adventure!
-Scholar:
-	You are a scholar that has been studying the art of magic. You
-	have made a breakthrough that could change humanity
-	and has led you to your current situation. Will you
-	stay in your tower and continue your studies? Or, will
-	you journey to the Capital to present your work?
-	Choose: Stay? or Journey?
+Scholar: You are a scholar that has been studying the art of magic. You
+	 have made a breakthrough that could change humanity
+	 and has led you to your current situation. Will you
+	 stay in your tower and continue your studies? Or, will
+	 you journey to the Capital to present your work?
+	 Choose: Stay? or Journey?
 
 	STAY: 	You decide to keep your work wo yourself and continue to 
 		study it. Unfortunately, one of your potions exploded
@@ -76,6 +75,75 @@ Scholar:
 				what I would have done if you had not shown up! Please,
 				let me return the favor by travelling with you to repay 
 				this debt."
+				Choose: Tag Along? or Solo?
+
+				Tag Along: You have decided the adventurer might be of some use to you, so
+						you let them accompany you on this trip. Unfortunatly, this
+						adventurer is very talkative and gives away your location to 
+						another huge beast! The beast engages with the adventurer in 
+						combat! This is your chance! You can run away now or stay and
+						help your adventurer!
+						Choose: Stay? or Run Away?
+					
+					STAY: You have chosen to help your poor talkative friend! Unfortunatly,
+						you were too indecisive and the beast decapitated your comrade!
+						Now it has you in its sight! It charges and you attempt the same
+						spell as before, but instead of fire, a huge gust of wind expels
+						from your hands. *You are not very proficient in your newly 
+						discovered magic, are you?* You are blown away from the beast and into a tree,
+						hitting your head again! The beast took no damage, and actually seems 
+						very annoyed. It charges again, but your head is making it hard for
+						you to get up! The beast lifts its clawed arm and slashes you across
+						the chest! And then he does it again and again! There is no hope for you,
+						and before the world fades to black, you can't help but think that 
+						maybe this whole magic stuff just wasn't meant for you. END
+	
+					RUN AWAY: You make a run for it, trying to gain as much distance between you and
+						the battle as possible. It seems like that was the correct choice because
+						minutes later you hear a gut wrenching scream before eery silence. You 
+						continue to run away until you have no more stamina. Hopefully that was 
+						far enough the beast will not find. However, as you look around, you realize
+						you are completely lost and it is starting to get dark out. Perhaps you should 
+						make camp for the night?
+						Choose: Make Camp? or Carry On?
+						
+						MAKE CAMP: You decide to make camp. You set up a little fire pit and put your
+							sleeping rags next to the fire. Hopefully the fire will ward off any 
+							predators that might be lurking in the shadows. You eat some jerky that
+							you packed for the journey and head to sleep. Hopefully you will be able to
+							find your way in the morning. 
+							Oh no! Something has woken you up in the middle of the night. The fire has died
+							down, but you begin to here a slight russle in the bushes around you.
+							"Hello?" you call out, but there is no answer. Another rustle from behind you.
+							You turn but see nothing. Then something slices the back of your calf from behind!
+							You turn and see a scaly tail disappear into the bushes. A few minutes past and you
+							begin to feel light headed. All of a sudden you collapse! You can no longer move!
+							The animal has paralyzed you! You hear a rustle from behind you and a weird mixture
+							of a hiss and growl. It slowly approaches from behind. The animal appears above your 
+							head, all scaly with razor sharp teeth. It looks down at you before striking your throat,
+							ending your puny little life. END
+
+						CARRY ON: For some ungodly reason you decide to continue on you journey, but it looks like you
+							have hit a stroke of luck! You have found a trail with a marker that points in the direction 
+							of the Capital! You follow this trail all the way and never stop. By the time you get there
+							it is midday. You make your way to the Scholar headquarters to present your work. When you
+							walk into the building, you are amazed by all the people there with their inventions. It is
+							intimidating to be around all these smart people. You make your way to the front desk and 
+							tell the clerk, that you have made a discovery. She hands you some paperwork to fill out, and
+							before you know it, you are standing before the Scholar Council.
+							"Scholars," you say. "I have come before you today, to show my years of research have payed
+							off. The ancient magics that we have heard of in stories are real! Let me demonstrate." 
+							You focus into yourself, and bring forth the flame you were longing for not a dat ago. And 
+							there in your palm, a small flame errupts. You hold your hand out expectantly, waiting for
+							the Council's reaction. 
+							Slowly, laughter builds in the room, until everyone is full on belly laughing.
+							"Are" gasp "You serious?" on of the council members says. "We have known about the existance
+							of magic for over 10 years now. It is in every textbook across the nation!" He continues to 
+							laugh. "What rock have you been living under?!" Laughter ensues, and you slowly make your way
+							out of the building. You make your way to a bridge that is over a roaring river. You get onto 
+							ledge, and with a cry of agony you throw yourself off the bridge and are carried away, never
+							to be seen again. END
+				SOLO:
 
 		MOVE ALONG: You decided to leave the adventurer to their fate and 
 				continue on your journey. You eventually make it to
@@ -93,5 +161,6 @@ Scholar:
 				of the men saying, "Now, what do we have hear? A scholar, 
 				eh? Wonder if we'll get rich off his work? HAHAHA!" END
 
+ADVENTURER:
 
 
