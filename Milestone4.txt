@@ -214,9 +214,33 @@ ADVENTURER: You are a lonely farmer that has never had any excitement in their l
 		Choose: Cave? or Climb?
 	
 		CAVE: The cave is pitch black and you only have two torches and enough fuel to last you five hours on each torch. Hopefully, the cave leads
-			somewhere before your light runs out. 
+			somewhere before your light runs out. You light your torch and slowly make your wave into the cave. About an hour in there is are 
+			two tunnels. Do you pick the left tunnel or the right tunnel?
+			Choose: Left? or Right?
+
+			LEFT: As you go down the left tunnel, it begins to get more narrow until you are shimmying your way through. As you go forward,
+				it begins to get very cold, until you come across a small cavern with glowing crystals everywhere. Extinguishing the torch
+				you can see everything around you with out it. You make your way over to one of the walls and notice these are not just
+				any crystals, but they humm slightly with magic. You try to grab one but it is stuck in there. You continue looking at them
+				until you find one that looks loose. You pull on it and with a grunt the releases from the wall causing you to fall on your
+				back from the force. Suddenly, you hear a cracking sound and when you look at the floor there are large cracks around where
+				you sit. Slowly, you begin to stadn but the cracks get bigger until the entire floor you stand on loos about ready to break 
+				at any moment. The floor is made of ice! Every move you make causes more cracking sounds until suddenly, the floor gives and 
+				you are free falling into a black hole with no end in sight. You scream for your life and the crystal in your hand glows 
+				brighter and amplifies the sound you make. However, that has no use to you and you make impact with the floor below. The 
+				impact is too great, and you die splattered on the cave floor, thus ending you "grand" advanture. END
+
+			RIGHT: The right tunnel seems to slowly decend further into the mountain, and the further you go the hotter it becomes. Eventually,
+				it becomes so hot that you are sweating through your clothes, but you keep moving forward. About 2 hours into this trip,
+				you see a light at the end of the tunnel. Thinking it is the way out, you sprint to the end hoping to get out of the 
+				blistering heat. Unfortunatly, you are not a very lucky adventurer and you trip on a rock near the end of the tunnel. This
+				causes you to fly forward, directly into a pool of lava. That light at the end of the tunnel was actually from a lava lake
+				the tunnel lead to. You are not a very smart or skillful adventurer. And thus, your great adventure ends. END
+
 
 		CLIMB: You begin to climb the side of the mountain with the hope that you will get to the top or find a new path, whichever comes first.
 			The foot and hand holds are not very big and some even cut into your hands, making you bleed. About 30 minutes into your climb
 			and you have covered quite the distance, but you can not find any more foot holds to go higher. Plus, the bleeding of your hands 
-			has not stopped adn you are beginning to worry that you are losing to much blood. 
+			has not stopped and you are beginning to worry that you are losing too much blood. Miraculously, you find another hand hold just
+			out of your reach, you will need to jump in order to grab it. So, you jump and catch the hand hold, but the blood on your hands 
+			makes it too slippery to hold onto! You plummet to your death over 150 feet below, and that is the end to your short adventure. END
