@@ -6,7 +6,7 @@ Scholar: You are a scholar that has been studying the art of magic. You
 	 you journey to the Capital to present your work?
 	 Choose: Stay? or Journey?
 
-	STAY: 	You decide to keep your work wo yourself and continue to 
+	STAY: 	You decide to keep your work to yourself and continue to 
 		study it. Unfortunately, one of your potions exploded
 		in your face, causing immense pain and partial blindness.
 		You scury to find a neutralizing potion; hopefully the one
@@ -143,7 +143,21 @@ Scholar: You are a scholar that has been studying the art of magic. You
 							out of the building. You make your way to a bridge that is over a roaring river. You get onto 
 							ledge, and with a cry of agony you throw yourself off the bridge and are carried away, never
 							to be seen again. END
-				SOLO:
+
+				SOLO: You decided to not let the adventurer tag along and continue on your path.
+					You eventually make it to Capital where all important discoveries are 
+					introduced and pattented. It is late at night when you arrive, but
+					on your way to a tavern you make a turn into a sketchy
+					alleyway. Two men in all balck with masks appear! They
+					pull out knives and slowly walk toward you. You begin 
+					turn back out of the alley, but all of a sudden there
+					is immense pain in your side! You look down and see a 
+					knife protruding from you and another man in all black
+					standing behind you. You slowly start to lose 
+					conciousness and fall to the floor. The last thing you
+					hear before the world turns black is the voice of one
+					of the men saying, "Now, what do we have hear? A scholar, 
+					eh? Wonder if we'll get rich off his work? HAHAHA!" END
 
 		MOVE ALONG: You decided to leave the adventurer to their fate and 
 				continue on your journey. You eventually make it to
@@ -161,6 +175,48 @@ Scholar: You are a scholar that has been studying the art of magic. You
 				of the men saying, "Now, what do we have hear? A scholar, 
 				eh? Wonder if we'll get rich off his work? HAHAHA!" END
 
-ADVENTURER:
+ADVENTURER: You are a lonely farmer that has never had any excitement in their life. On a whim, you decide
+		to go on the adventure of a lifetime. So, you pack up everything you think you will need,
+		sell your farm to your neighbor, adn set out on this epic adventure, sword in hand. On the 
+		path of life, you come across a fork in the road. One path leads to a dense forest, the other 
+		leads to mountainous terrain. Which path do you choose?
+		Choose: Forest? or Mountain?
+	
+	FOREST: You turn left to the dense, dark forest, unsure what great adventure awaits. Upon entering the forest
+		everything gets darker and eery. Twigs snap and crows caw. You are all alone out here. As you move along,
+		the path becomes more overgrown and hard to trek, but eventually you come across a clearing. It seems empty
+		so you step out of the brush, but suddenly, a roar shatters the silence and out bounds a jigantic mosnter! 
+		It towers over you and has huge, sharp claws! It looks like it hasn't noticed you yet, will you engage the monster?
+		Or will you flee?
+		Choose: Engage? or Flee?
 
+		ENGAGE: You charge the monster with your sword raised high and a mighty yell! The beast snaps its head to you and
+			narrows its eyes before unleashing a great roar much louder and terror inducing than yours. Then it charges
+			and goes to slash at you, but your luck must be high because miraculously you dodged the attack and slashed
+			its hind leg with your sword, drawing blood. The beast throws its head back and roars in pain. It turns to 
+			you and slashes your chest! The pain is too much and you can not dodge the next one. It keeps slashing until
+			all that is left of you is a shredded pile of human flesh. And thus, your great adventure has come to an end. END
 
+		FLEE: You have made the wise decision to flee. You find yourself running deeper and deeper in to the dark forest, until
+			suddenly, you come across a lake with a gorgeous waterfall. Exhausted and thirsty, you make your way to the waters
+			edge and drink the water until your belly is about to burst. Suddenly, a splash draws your attention to the middle of
+			the lake where you catch a glimpse of the tail of some kind of fish before it vanishes into the water. You stand up to
+			get a better look and there is another splash of a tail. It has a rainbow of colored scales and is at least two feet wide. 
+			You take a step into the water and suddenly something grabs your leg and pulls you into its depths! You are thrashed violenty
+			before being lifted out of the water. You see you have a huge tentacle wrapped around your leg and it is dangling you above 
+			a giant water monster with razor sharp teeth and a rainbow tail on the top of its head! With no way to get out, you are slowly
+			lowered into its mouth and chewed up as lunch. Thus, your pitiful adventure has come to an end. END
+
+	MOUNTAIN: You chose the mountain path where jagged rocks and unstable ledges are not the only dangers people face. You start your trek up  the
+		mountain with high hopes of a grand adventure. About an hour into your journey, land slide has cut off the path forward. The only options 
+		you have are to scale the side of the mountain and hopfully find a new path. Or go into the cave you saw a few minutes back in hopes it will
+		lead you somewhere.
+		Choose: Cave? or Climb?
+	
+		CAVE: The cave is pitch black and you only have two torches and enough fuel to last you five hours on each torch. Hopefully, the cave leads
+			somewhere before your light runs out. 
+
+		CLIMB: You begin to climb the side of the mountain with the hope that you will get to the top or find a new path, whichever comes first.
+			The foot and hand holds are not very big and some even cut into your hands, making you bleed. About 30 minutes into your climb
+			and you have covered quite the distance, but you can not find any more foot holds to go higher. Plus, the bleeding of your hands 
+			has not stopped adn you are beginning to worry that you are losing to much blood. 
