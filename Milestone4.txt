@@ -83,9 +83,9 @@ Scholar: You are a scholar that has been studying the art of magic. You
 						another huge beast! The beast engages with the adventurer in 
 						combat! This is your chance! You can run away now or stay and
 						help your adventurer!
-						Choose: Stay? or Run Away?
+						Choose: Aid? or Run Away?
 					
-					STAY: You have chosen to help your poor talkative friend! Unfortunatly,
+					Aid: You have chosen to help your poor talkative friend! Unfortunatly,
 						you were too indecisive and the beast decapitated your comrade!
 						Now it has you in its sight! It charges and you attempt the same
 						spell as before, but instead of fire, a huge gust of wind expels
