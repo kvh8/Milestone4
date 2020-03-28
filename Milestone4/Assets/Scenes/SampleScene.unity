@@ -201,7 +201,7 @@ PrefabInstance:
     - target: {fileID: 5489331432854737944, guid: 55e71f1448b37864988a799bfdd401fc,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 50.399994
       objectReference: {fileID: 0}
     - target: {fileID: 5489331432854737944, guid: 55e71f1448b37864988a799bfdd401fc,
         type: 3}
@@ -211,7 +211,7 @@ PrefabInstance:
     - target: {fileID: 5489331432854737944, guid: 55e71f1448b37864988a799bfdd401fc,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: -100.8
       objectReference: {fileID: 0}
     - target: {fileID: 5489331432854737944, guid: 55e71f1448b37864988a799bfdd401fc,
         type: 3}
@@ -251,6 +251,124 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 6387024}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &319716056
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 319716057}
+  - component: {fileID: 319716060}
+  - component: {fileID: 319716059}
+  - component: {fileID: 319716058}
+  m_Layer: 5
+  m_Name: Option2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &319716057
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 319716056}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 992068370}
+  m_Father: {fileID: 1624055392}
+  m_RootOrder: 27
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 126.7, y: -116}
+  m_SizeDelta: {x: 182.6, y: 51.3}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &319716058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 319716056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 319716059}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &319716059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 319716056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.8867924, g: 0.4475792, b: 0.4475792, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &319716060
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 319716056}
+  m_CullTransparentMesh: 0
 --- !u!1001 &368997503
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -331,7 +449,7 @@ PrefabInstance:
     - target: {fileID: 5489331432854737944, guid: ecae1aa7609e7bc43bc0187c34a042a8,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 50.399994
       objectReference: {fileID: 0}
     - target: {fileID: 5489331432854737944, guid: ecae1aa7609e7bc43bc0187c34a042a8,
         type: 3}
@@ -341,7 +459,7 @@ PrefabInstance:
     - target: {fileID: 5489331432854737944, guid: ecae1aa7609e7bc43bc0187c34a042a8,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: -100.8
       objectReference: {fileID: 0}
     - target: {fileID: 5489331432854737944, guid: ecae1aa7609e7bc43bc0187c34a042a8,
         type: 3}
@@ -560,7 +678,7 @@ PrefabInstance:
     - target: {fileID: 5489331432854737944, guid: d908a7ddad0be944c8c0e6cb7a3f1ccb,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 50.399994
       objectReference: {fileID: 0}
     - target: {fileID: 5489331432854737944, guid: d908a7ddad0be944c8c0e6cb7a3f1ccb,
         type: 3}
@@ -570,7 +688,7 @@ PrefabInstance:
     - target: {fileID: 5489331432854737944, guid: d908a7ddad0be944c8c0e6cb7a3f1ccb,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: -100.8
       objectReference: {fileID: 0}
     - target: {fileID: 5489331432854737944, guid: d908a7ddad0be944c8c0e6cb7a3f1ccb,
         type: 3}
@@ -609,7 +727,8 @@ PrefabInstance:
         to last you five hours on each torch. Hopefully, the cave leads\r somewhere
         before your light runs out. You light your torch and slowly make your wave
         into the cave. About an hour in there is are two tunnels. Do you pick the
-        left tunnel or the right tunnel?\r \n\nChoose: Left? or Right?\r"
+        left tunnel or the right tunnel?\r \nChoose: \nOption 1: Left?\nOption 2:
+        Right?\r"
       objectReference: {fileID: 0}
     - target: {fileID: 9080329204555662593, guid: d908a7ddad0be944c8c0e6cb7a3f1ccb,
         type: 3}
@@ -714,7 +833,7 @@ PrefabInstance:
     - target: {fileID: 5489331432854737944, guid: bb2856c1160cb234eba09bd8358d73bb,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 50.399994
       objectReference: {fileID: 0}
     - target: {fileID: 5489331432854737944, guid: bb2856c1160cb234eba09bd8358d73bb,
         type: 3}
@@ -724,7 +843,7 @@ PrefabInstance:
     - target: {fileID: 5489331432854737944, guid: bb2856c1160cb234eba09bd8358d73bb,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: -100.8
       objectReference: {fileID: 0}
     - target: {fileID: 5489331432854737944, guid: bb2856c1160cb234eba09bd8358d73bb,
         type: 3}
@@ -783,8 +902,8 @@ PrefabInstance:
         are still groggy from the explosion. The adventurer runs to your side to\r
         help you up.\r\n\n\"Thank you so much for coming to my aid! I don't know
         what I would have done if you had not shown up! Please, let me return the
-        favor by travelling with you to repay \rthis debt.\"\r\n\nChoose: Tag Along?
-        or Solo?"
+        favor by travelling with you to repay \rthis debt.\"\r\nChoose: \nOption
+        1: Tag Along?\nOption 2: Solo?"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bb2856c1160cb234eba09bd8358d73bb, type: 3}
@@ -874,7 +993,7 @@ PrefabInstance:
     - target: {fileID: 5489331432854737944, guid: 7762186b18ee2944c9f1125a2b23fe8f,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 50.399994
       objectReference: {fileID: 0}
     - target: {fileID: 5489331432854737944, guid: 7762186b18ee2944c9f1125a2b23fe8f,
         type: 3}
@@ -884,7 +1003,7 @@ PrefabInstance:
     - target: {fileID: 5489331432854737944, guid: 7762186b18ee2944c9f1125a2b23fe8f,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: -100.8
       objectReference: {fileID: 0}
     - target: {fileID: 5489331432854737944, guid: 7762186b18ee2944c9f1125a2b23fe8f,
         type: 3}
@@ -939,8 +1058,8 @@ PrefabInstance:
         with high hopes of a grand adventure. About an hour into your journey, land
         slide has cut off the path forward. The only options you have are to scale
         the side of the mountain and hopfully find a new path. Or go into the cave
-        you saw a few minutes back in hopes it will\r lead you somewhere.\r\n\nChoose:
-        Cave? or Climb?"
+        you saw a few minutes back in hopes it will\r lead you somewhere.\r\nChoose:
+        \nOption 1: Cave?\nOption 2: Climb?"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7762186b18ee2944c9f1125a2b23fe8f, type: 3}
@@ -989,6 +1108,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71cf48dc63dca1e4ba54136f48616acb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  textPrefabs:
+  - {fileID: 4612169930547402383, guid: c64c5a72045a4e448a3317e4f0415a0c, type: 3}
+  - {fileID: 4612169930547402383, guid: 0b91f6cb09b8f1941aeb3b8ff84a32d2, type: 3}
+  - {fileID: 4612169930547402383, guid: 17b2e9dbb6511684d9df30ea47f82e52, type: 3}
+  - {fileID: 4612169930547402383, guid: 442bd502573d2b24da9225f57428b413, type: 3}
+  - {fileID: 4612169930547402383, guid: 9b6dfbf2659c3a54bb6140364db76755, type: 3}
+  - {fileID: 4612169930547402383, guid: c77105568dc327b4aa9b90e147dfd8e2, type: 3}
+  - {fileID: 4612169930547402383, guid: 7762186b18ee2944c9f1125a2b23fe8f, type: 3}
+  - {fileID: 4612169930547402383, guid: 55e71f1448b37864988a799bfdd401fc, type: 3}
+  - {fileID: 4612169930547402383, guid: dad6321a63bf9a24697573b21c563e40, type: 3}
+  - {fileID: 4612169930547402383, guid: fd17662d51685c64fa521f9bbcfa3a99, type: 3}
+  - {fileID: 4612169930547402383, guid: ecae1aa7609e7bc43bc0187c34a042a8, type: 3}
+  - {fileID: 4612169930547402383, guid: ce9f53abb777c4b408bf1221d45e63de, type: 3}
+  - {fileID: 4612169930547402383, guid: d720823e240e896459a3f24f6dca28d6, type: 3}
+  - {fileID: 4612169930547402383, guid: d908a7ddad0be944c8c0e6cb7a3f1ccb, type: 3}
+  - {fileID: 4612169930547402383, guid: 55e54da1ce36c6c43b8a128df5e33171, type: 3}
+  - {fileID: 4612169930547402383, guid: be3593e79dcabc141a115eb9263aa4e1, type: 3}
+  - {fileID: 4612169930547402383, guid: bb2856c1160cb234eba09bd8358d73bb, type: 3}
+  - {fileID: 4612169930547402383, guid: 07d0e5b99755e304691c17c0f1708fa0, type: 3}
+  - {fileID: 4612169930547402383, guid: 5b84f260b547bdc4d81442698479ed30, type: 3}
+  - {fileID: 4612169930547402383, guid: 03027b5f9068e8147a835696878378a4, type: 3}
+  - {fileID: 4612169930547402383, guid: d66052380593d3b45b0d354fa6c478fd, type: 3}
+  - {fileID: 4612169930547402383, guid: 253dabf4aa520f245a31ee29c46d0ce7, type: 3}
+  - {fileID: 4612169930547402383, guid: 82ce24d79c14a5647bf2531b08d56fd6, type: 3}
+  - {fileID: 4612169930547402383, guid: ca2056736c21d4640a8dd23451ee4ef7, type: 3}
+  - {fileID: 4612169930547402383, guid: 87df69f05d9457e43a529e1a37afec56, type: 3}
+  option1: {fileID: 1660938298}
+  option2: {fileID: 319716058}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -1126,7 +1273,7 @@ PrefabInstance:
     - target: {fileID: 5489331432854737944, guid: 5b84f260b547bdc4d81442698479ed30,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 50.399994
       objectReference: {fileID: 0}
     - target: {fileID: 5489331432854737944, guid: 5b84f260b547bdc4d81442698479ed30,
         type: 3}
@@ -1136,7 +1283,7 @@ PrefabInstance:
     - target: {fileID: 5489331432854737944, guid: 5b84f260b547bdc4d81442698479ed30,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: -100.8
       objectReference: {fileID: 0}
     - target: {fileID: 5489331432854737944, guid: 5b84f260b547bdc4d81442698479ed30,
         type: 3}
@@ -1205,6 +1352,83 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 560636048}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &667147445
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 667147446}
+  - component: {fileID: 667147448}
+  - component: {fileID: 667147447}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &667147446
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667147445}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1660938297}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &667147447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667147445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Button
+--- !u!222 &667147448
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667147445}
+  m_CullTransparentMesh: 0
 --- !u!1001 &707364336
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1285,7 +1509,7 @@ PrefabInstance:
     - target: {fileID: 5489331432854737944, guid: 03027b5f9068e8147a835696878378a4,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 50.399994
       objectReference: {fileID: 0}
     - target: {fileID: 5489331432854737944, guid: 03027b5f9068e8147a835696878378a4,
         type: 3}
@@ -1295,7 +1519,7 @@ PrefabInstance:
     - target: {fileID: 5489331432854737944, guid: 03027b5f9068e8147a835696878378a4,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: -100.8
       objectReference: {fileID: 0}
     - target: {fileID: 5489331432854737944, guid: 03027b5f9068e8147a835696878378a4,
         type: 3}
@@ -1334,7 +1558,8 @@ PrefabInstance:
         let them accompany you on this trip. Unfortunatly, this\r adventurer is very
         talkative and gives away your location to another huge beast! The beast engages
         with the adventurer in combat! This is your chance! You can run away now
-        or stay and\r aid your adventurer!\r\n\nChoose: Aid? or Run Away?"
+        or stay and\r aid your adventurer!\r\nChoose: \nOption 1: Aid?\nOption 2:
+        Run Away?"
       objectReference: {fileID: 0}
     - target: {fileID: 9080329204555662593, guid: 03027b5f9068e8147a835696878378a4,
         type: 3}
@@ -1439,7 +1664,7 @@ PrefabInstance:
     - target: {fileID: 5489331432854737944, guid: be3593e79dcabc141a115eb9263aa4e1,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 50.399994
       objectReference: {fileID: 0}
     - target: {fileID: 5489331432854737944, guid: be3593e79dcabc141a115eb9263aa4e1,
         type: 3}
@@ -1449,7 +1674,7 @@ PrefabInstance:
     - target: {fileID: 5489331432854737944, guid: be3593e79dcabc141a115eb9263aa4e1,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: -100.8
       objectReference: {fileID: 0}
     - target: {fileID: 5489331432854737944, guid: be3593e79dcabc141a115eb9263aa4e1,
         type: 3}
@@ -1594,7 +1819,7 @@ PrefabInstance:
     - target: {fileID: 5489331432854737944, guid: c77105568dc327b4aa9b90e147dfd8e2,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 50.399994
       objectReference: {fileID: 0}
     - target: {fileID: 5489331432854737944, guid: c77105568dc327b4aa9b90e147dfd8e2,
         type: 3}
@@ -1604,7 +1829,7 @@ PrefabInstance:
     - target: {fileID: 5489331432854737944, guid: c77105568dc327b4aa9b90e147dfd8e2,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: -100.8
       objectReference: {fileID: 0}
     - target: {fileID: 5489331432854737944, guid: c77105568dc327b4aa9b90e147dfd8e2,
         type: 3}
@@ -1646,7 +1871,8 @@ PrefabInstance:
         a clearing. It seems empty\r so you step out of the brush, but suddenly,
         a roar shatters the silence and out bounds a jigantic mosnter! It towers
         over you and has huge, sharp claws! It looks like it hasn't noticed you yet,
-        will you engage the monster? Or will you flee?\r\n\nChoose: Engage? or Flee?"
+        will you engage the monster? Or will you flee?\r\nChoose: \nOption 1: Engage?\nOption
+        2: Flee?"
       objectReference: {fileID: 0}
     - target: {fileID: 9080329204555662593, guid: c77105568dc327b4aa9b90e147dfd8e2,
         type: 3}
@@ -1751,7 +1977,7 @@ PrefabInstance:
     - target: {fileID: 5489331432854737944, guid: d720823e240e896459a3f24f6dca28d6,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 50.399994
       objectReference: {fileID: 0}
     - target: {fileID: 5489331432854737944, guid: d720823e240e896459a3f24f6dca28d6,
         type: 3}
@@ -1761,7 +1987,7 @@ PrefabInstance:
     - target: {fileID: 5489331432854737944, guid: d720823e240e896459a3f24f6dca28d6,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: -100.8
       objectReference: {fileID: 0}
     - target: {fileID: 5489331432854737944, guid: d720823e240e896459a3f24f6dca28d6,
         type: 3}
@@ -1915,7 +2141,7 @@ PrefabInstance:
     - target: {fileID: 5489331432854737944, guid: 82ce24d79c14a5647bf2531b08d56fd6,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 50.399994
       objectReference: {fileID: 0}
     - target: {fileID: 5489331432854737944, guid: 82ce24d79c14a5647bf2531b08d56fd6,
         type: 3}
@@ -1925,7 +2151,7 @@ PrefabInstance:
     - target: {fileID: 5489331432854737944, guid: 82ce24d79c14a5647bf2531b08d56fd6,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: -100.8
       objectReference: {fileID: 0}
     - target: {fileID: 5489331432854737944, guid: 82ce24d79c14a5647bf2531b08d56fd6,
         type: 3}
@@ -1966,7 +2192,8 @@ PrefabInstance:
         continue to run away until you have no more stamina. Hopefully that was \r
         far enough the beast will not find you. However, as you look around, you
         realize\r you are completely lost and it is starting to get dark out. Perhaps
-        you should make camp for the night?\r\n\nChoose: Make Camp? or Carry On?"
+        you should make camp for the night?\r\nChoose: \nOption 1: Make Camp?\nOption
+        2: Carry On?"
       objectReference: {fileID: 0}
     - target: {fileID: 9080329204555662593, guid: 82ce24d79c14a5647bf2531b08d56fd6,
         type: 3}
@@ -1991,6 +2218,83 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 990233565}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &992068369
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 992068370}
+  - component: {fileID: 992068372}
+  - component: {fileID: 992068371}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &992068370
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 992068369}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 319716057}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &992068371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 992068369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Button
+--- !u!222 &992068372
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 992068369}
+  m_CullTransparentMesh: 0
 --- !u!1001 &1116984594
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2071,7 +2375,7 @@ PrefabInstance:
     - target: {fileID: 5489331432854737944, guid: 87df69f05d9457e43a529e1a37afec56,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 50.399994
       objectReference: {fileID: 0}
     - target: {fileID: 5489331432854737944, guid: 87df69f05d9457e43a529e1a37afec56,
         type: 3}
@@ -2081,7 +2385,7 @@ PrefabInstance:
     - target: {fileID: 5489331432854737944, guid: 87df69f05d9457e43a529e1a37afec56,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: -100.8
       objectReference: {fileID: 0}
     - target: {fileID: 5489331432854737944, guid: 87df69f05d9457e43a529e1a37afec56,
         type: 3}
@@ -2268,7 +2572,7 @@ PrefabInstance:
     - target: {fileID: 5489331432854737944, guid: 55e54da1ce36c6c43b8a128df5e33171,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 50.399994
       objectReference: {fileID: 0}
     - target: {fileID: 5489331432854737944, guid: 55e54da1ce36c6c43b8a128df5e33171,
         type: 3}
@@ -2278,7 +2582,7 @@ PrefabInstance:
     - target: {fileID: 5489331432854737944, guid: 55e54da1ce36c6c43b8a128df5e33171,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: -100.8
       objectReference: {fileID: 0}
     - target: {fileID: 5489331432854737944, guid: 55e54da1ce36c6c43b8a128df5e33171,
         type: 3}
@@ -2428,7 +2732,7 @@ PrefabInstance:
     - target: {fileID: 5489331432854737944, guid: 9b6dfbf2659c3a54bb6140364db76755,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 50.399994
       objectReference: {fileID: 0}
     - target: {fileID: 5489331432854737944, guid: 9b6dfbf2659c3a54bb6140364db76755,
         type: 3}
@@ -2438,7 +2742,7 @@ PrefabInstance:
     - target: {fileID: 5489331432854737944, guid: 9b6dfbf2659c3a54bb6140364db76755,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: -100.8
       objectReference: {fileID: 0}
     - target: {fileID: 5489331432854737944, guid: 9b6dfbf2659c3a54bb6140364db76755,
         type: 3}
@@ -2477,7 +2781,8 @@ PrefabInstance:
         world. On your journey, you stumble into clearing where you find\r an adventurer
         fighting a gruesome monster. They seem very skilled,\r but the monster also
         looks very tough. It stands at least 7 feet tall, with thick scales, and
-        long claws! Do you help or move along?\r\n\nChoose: Help? or Move Along?"
+        long claws! Do you help or move along?\r\nChoose: \nOption 1: Help?\nOption
+        2: Move Along?"
       objectReference: {fileID: 0}
     - target: {fileID: 9080329204555662593, guid: 9b6dfbf2659c3a54bb6140364db76755,
         type: 3}
@@ -2582,7 +2887,7 @@ PrefabInstance:
     - target: {fileID: 5489331432854737944, guid: 17b2e9dbb6511684d9df30ea47f82e52,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 50.399994
       objectReference: {fileID: 0}
     - target: {fileID: 5489331432854737944, guid: 17b2e9dbb6511684d9df30ea47f82e52,
         type: 3}
@@ -2592,7 +2897,7 @@ PrefabInstance:
     - target: {fileID: 5489331432854737944, guid: 17b2e9dbb6511684d9df30ea47f82e52,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: -100.8
       objectReference: {fileID: 0}
     - target: {fileID: 5489331432854737944, guid: 17b2e9dbb6511684d9df30ea47f82e52,
         type: 3}
@@ -2632,8 +2937,8 @@ PrefabInstance:
         pack up everything you think you will need,\r sell your farm to your neighbor,
         adn set out on this epic adventure, sword in hand. On the path of life, you
         come across a fork in the road. One path leads to a dense forest, the other
-        leads to mountainous terrain. Which path do you choose?\r\n\nChoose: Forest?
-        or Mountain?"
+        leads to mountainous terrain. Which path do you choose?\r\nChoose: \nOption
+        1: Forest?\nOption 2: Mountain?"
       objectReference: {fileID: 0}
     - target: {fileID: 9080329204555662593, guid: 17b2e9dbb6511684d9df30ea47f82e52,
         type: 3}
@@ -2758,7 +3063,7 @@ PrefabInstance:
     - target: {fileID: 5489331432854737944, guid: 0b91f6cb09b8f1941aeb3b8ff84a32d2,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 0.32000002
       objectReference: {fileID: 0}
     - target: {fileID: 5489331432854737944, guid: 0b91f6cb09b8f1941aeb3b8ff84a32d2,
         type: 3}
@@ -2786,8 +3091,8 @@ PrefabInstance:
       value: "You are a scholar that has been studying the art of magic. You\r have
         made a breakthrough that could change humanity\r and has led you to your
         current situation. Will you\r stay in your tower and continue your studies?
-        Or will\r you journey to the Capital to present your work?\r\n\nChoose: Stay?
-        or Journey?"
+        Or will\r you journey to the Capital to present your work?\r\nChoose: \nOption
+        1: Stay?\nOption 2: Journey?"
       objectReference: {fileID: 0}
     - target: {fileID: 9080329204555662593, guid: 0b91f6cb09b8f1941aeb3b8ff84a32d2,
         type: 3}
@@ -2892,7 +3197,7 @@ PrefabInstance:
     - target: {fileID: 5489331432854737944, guid: ca2056736c21d4640a8dd23451ee4ef7,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 50.399994
       objectReference: {fileID: 0}
     - target: {fileID: 5489331432854737944, guid: ca2056736c21d4640a8dd23451ee4ef7,
         type: 3}
@@ -2902,7 +3207,7 @@ PrefabInstance:
     - target: {fileID: 5489331432854737944, guid: ca2056736c21d4640a8dd23451ee4ef7,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: -100.8
       objectReference: {fileID: 0}
     - target: {fileID: 5489331432854737944, guid: ca2056736c21d4640a8dd23451ee4ef7,
         type: 3}
@@ -3133,7 +3438,7 @@ PrefabInstance:
     - target: {fileID: 5489331432854737944, guid: ce9f53abb777c4b408bf1221d45e63de,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 50.399994
       objectReference: {fileID: 0}
     - target: {fileID: 5489331432854737944, guid: ce9f53abb777c4b408bf1221d45e63de,
         type: 3}
@@ -3143,7 +3448,7 @@ PrefabInstance:
     - target: {fileID: 5489331432854737944, guid: ce9f53abb777c4b408bf1221d45e63de,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: -100.8
       objectReference: {fileID: 0}
     - target: {fileID: 5489331432854737944, guid: ce9f53abb777c4b408bf1221d45e63de,
         type: 3}
@@ -3328,6 +3633,8 @@ RectTransform:
   - {fileID: 1948522698}
   - {fileID: 560636049}
   - {fileID: 1162818211}
+  - {fileID: 1660938297}
+  - {fileID: 319716057}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3416,7 +3723,7 @@ PrefabInstance:
     - target: {fileID: 5489331432854737944, guid: d66052380593d3b45b0d354fa6c478fd,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 50.399994
       objectReference: {fileID: 0}
     - target: {fileID: 5489331432854737944, guid: d66052380593d3b45b0d354fa6c478fd,
         type: 3}
@@ -3426,7 +3733,7 @@ PrefabInstance:
     - target: {fileID: 5489331432854737944, guid: d66052380593d3b45b0d354fa6c478fd,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: -100.8
       objectReference: {fileID: 0}
     - target: {fileID: 5489331432854737944, guid: d66052380593d3b45b0d354fa6c478fd,
         type: 3}
@@ -3497,6 +3804,124 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 1650164597}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1660938296
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1660938297}
+  - component: {fileID: 1660938300}
+  - component: {fileID: 1660938299}
+  - component: {fileID: 1660938298}
+  m_Layer: 5
+  m_Name: Option1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1660938297
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1660938296}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 667147446}
+  m_Father: {fileID: 1624055392}
+  m_RootOrder: 26
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -138, y: -116}
+  m_SizeDelta: {x: 186.4, y: 51.3}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1660938298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1660938296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 0
+  m_TargetGraphic: {fileID: 1660938299}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1660938299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1660938296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.45843717, g: 0.9622642, b: 0.70027417, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1660938300
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1660938296}
+  m_CullTransparentMesh: 0
 --- !u!1001 &1730236707
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3577,7 +4002,7 @@ PrefabInstance:
     - target: {fileID: 5489331432854737944, guid: fd17662d51685c64fa521f9bbcfa3a99,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 50.399994
       objectReference: {fileID: 0}
     - target: {fileID: 5489331432854737944, guid: fd17662d51685c64fa521f9bbcfa3a99,
         type: 3}
@@ -3587,7 +4012,7 @@ PrefabInstance:
     - target: {fileID: 5489331432854737944, guid: fd17662d51685c64fa521f9bbcfa3a99,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: -100.8
       objectReference: {fileID: 0}
     - target: {fileID: 5489331432854737944, guid: fd17662d51685c64fa521f9bbcfa3a99,
         type: 3}
@@ -3627,8 +4052,8 @@ PrefabInstance:
         Stupid!\" You yell. The beast whips its head to stare\r at you. It looks
         like it's about to charge! Quick, what do use to defend yourself? Do you
         use the sturdy looking stick on the ground next to you? Or do you attempt
-        to use the\r new magic you recently learned about from your studies?\r\n\nChoose:
-        Stick? or Magic?"
+        to use the\r new magic you recently learned about from your studies?\r\nChoose:
+        \nOption 1: Stick?\nOption 2: Magic?"
       objectReference: {fileID: 0}
     - target: {fileID: 9080329204555662593, guid: fd17662d51685c64fa521f9bbcfa3a99,
         type: 3}
@@ -3733,7 +4158,7 @@ PrefabInstance:
     - target: {fileID: 5489331432854737944, guid: 442bd502573d2b24da9225f57428b413,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 50.399994
       objectReference: {fileID: 0}
     - target: {fileID: 5489331432854737944, guid: 442bd502573d2b24da9225f57428b413,
         type: 3}
@@ -3743,7 +4168,7 @@ PrefabInstance:
     - target: {fileID: 5489331432854737944, guid: 442bd502573d2b24da9225f57428b413,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: -100.8
       objectReference: {fileID: 0}
     - target: {fileID: 5489331432854737944, guid: 442bd502573d2b24da9225f57428b413,
         type: 3}
@@ -3787,7 +4212,7 @@ PrefabInstance:
         Unfortunately, one of your potions exploded\r in your face, causing immense
         pain and partial blindness.\r You scury to find a neutralizing potion; hopefully
         the one\r you choose is the correct one. Do you pick up the blue or\r purple
-        bottle?\r\n\nChoose: Blue? or Purple?"
+        bottle?\r\nChoose: \nOption 1: Blue Bottle?\nOption 2: Purple Bottle?"
       objectReference: {fileID: 0}
     - target: {fileID: 9080329204555662593, guid: 442bd502573d2b24da9225f57428b413,
         type: 3}
@@ -3892,7 +4317,7 @@ PrefabInstance:
     - target: {fileID: 5489331432854737944, guid: 253dabf4aa520f245a31ee29c46d0ce7,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 50.399994
       objectReference: {fileID: 0}
     - target: {fileID: 5489331432854737944, guid: 253dabf4aa520f245a31ee29c46d0ce7,
         type: 3}
@@ -3902,7 +4327,7 @@ PrefabInstance:
     - target: {fileID: 5489331432854737944, guid: 253dabf4aa520f245a31ee29c46d0ce7,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: -100.8
       objectReference: {fileID: 0}
     - target: {fileID: 5489331432854737944, guid: 253dabf4aa520f245a31ee29c46d0ce7,
         type: 3}
@@ -4058,7 +4483,7 @@ PrefabInstance:
     - target: {fileID: 5489331432854737944, guid: 07d0e5b99755e304691c17c0f1708fa0,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 50.399994
       objectReference: {fileID: 0}
     - target: {fileID: 5489331432854737944, guid: 07d0e5b99755e304691c17c0f1708fa0,
         type: 3}
@@ -4068,7 +4493,7 @@ PrefabInstance:
     - target: {fileID: 5489331432854737944, guid: 07d0e5b99755e304691c17c0f1708fa0,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: -100.8
       objectReference: {fileID: 0}
     - target: {fileID: 5489331432854737944, guid: 07d0e5b99755e304691c17c0f1708fa0,
         type: 3}
@@ -4225,7 +4650,7 @@ PrefabInstance:
     - target: {fileID: 5489331432854737944, guid: dad6321a63bf9a24697573b21c563e40,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 50.399994
       objectReference: {fileID: 0}
     - target: {fileID: 5489331432854737944, guid: dad6321a63bf9a24697573b21c563e40,
         type: 3}
@@ -4235,7 +4660,7 @@ PrefabInstance:
     - target: {fileID: 5489331432854737944, guid: dad6321a63bf9a24697573b21c563e40,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: -100.8
       objectReference: {fileID: 0}
     - target: {fileID: 5489331432854737944, guid: dad6321a63bf9a24697573b21c563e40,
         type: 3}
@@ -4315,7 +4740,7 @@ PrefabInstance:
     - target: {fileID: 4612169930547402383, guid: c64c5a72045a4e448a3317e4f0415a0c,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5489331432854737944, guid: c64c5a72045a4e448a3317e4f0415a0c,
         type: 3}
@@ -4380,7 +4805,7 @@ PrefabInstance:
     - target: {fileID: 5489331432854737944, guid: c64c5a72045a4e448a3317e4f0415a0c,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 50.399994
       objectReference: {fileID: 0}
     - target: {fileID: 5489331432854737944, guid: c64c5a72045a4e448a3317e4f0415a0c,
         type: 3}
@@ -4390,7 +4815,7 @@ PrefabInstance:
     - target: {fileID: 5489331432854737944, guid: c64c5a72045a4e448a3317e4f0415a0c,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: -100.8
       objectReference: {fileID: 0}
     - target: {fileID: 5489331432854737944, guid: c64c5a72045a4e448a3317e4f0415a0c,
         type: 3}
@@ -4441,6 +4866,18 @@ PrefabInstance:
         type: 3}
       propertyPath: m_FontData.m_AlignByGeometry
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9080329204555662593, guid: c64c5a72045a4e448a3317e4f0415a0c,
+        type: 3}
+      propertyPath: m_Text
+      value: 'Choose Your Own Adventure!!!
+
+        Choose:
+
+        Option 1: Scholar
+
+        Option
+        2: Adventurer'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c64c5a72045a4e448a3317e4f0415a0c, type: 3}
