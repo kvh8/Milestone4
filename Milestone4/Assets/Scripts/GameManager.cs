@@ -19,6 +19,8 @@ public class GameManager : MonoBehaviour
     private bool op1 = false;
     private bool op2 = false;
     private bool isPlaying = false;
+    private int numberOfPrefabs;
+    private int textPositionPointer;
     //private BinaryNode adventure;
     int index = 0;
 
@@ -28,17 +30,6 @@ public class GameManager : MonoBehaviour
     {
         resetGame();
 
-        option1.onClick.AddListener(delegate
-        {
-            op1 = true;
-        });
-
-        option2.onClick.AddListener(delegate
-        {
-            op2 = true;
-        });
-
-
         GameObject clone1 = Instantiate(welcome, textPosition.transform);
 
         start.onClick.AddListener(delegate
@@ -47,45 +38,110 @@ public class GameManager : MonoBehaviour
             start.gameObject.SetActive(false);
             option1.gameObject.SetActive(true);
             option2.gameObject.SetActive(true);
+            isPlaying = true;
             startGame();
         });
     }
     void startGame()
     {
+        //clone = Instantiate(textPrefabs[index], textPosition[textPositionPointer].transform);
 
-        while (index < textPrefabs.Length)
+        //option1.onClick.AddListener(delegate
+        //{
+        //    Destroy(clone);
+        //    Option1();
+        //});
+
+        //option2.onClick.AddListener(delegate
+        //{
+        //    Destroy(clone);
+        //    Option2();
+        //});
+
+
+
+        clone = Instantiate(textPrefabs[index], textPosition.transform);
+        for (int i = 0; i < textPrefabs.Length; i++)
         {
-            clone = Instantiate(textPrefabs[index], textPosition.transform);
-
-            if (op1 == true)
+            option1.onClick.AddListener(delegate
             {
+                Destroy(textPosition.transform.GetChild(0).gameObject);
                 index = (2 * index) + 1;
-            }
-            else if(op2 == true)
+                clone = Instantiate(textPrefabs[index], textPosition.transform);
+            });
+            option2.onClick.AddListener(delegate
             {
+                Destroy(textPosition.transform.GetChild(0).gameObject);
                 index = (2 * index) + 2;
-            }
+                clone = Instantiate(textPrefabs[index], textPosition.transform);
+            });
         }
+
+
+        //if (op1 == true)
+        //{
+        //    index = (2 * index) + 1;
+        //}
+        //else if (op2 == true)
+        //{
+        //    index = (2 * index) + 2;
+        //}
 
     }
 
-        
-
-        //adventure.Insert(textPrefabs, index, adventure);
-
-        //Instantiate(adventure.value, textPosition.transform);
 
 
 
-        //nextChoice(adventure);
- 
+    //void Option1()
+    //{
+    //    clone = Instantiate(textPrefabs[index], textPosition[textPositionPointer++].transform);
+    //    index = (2 * index) + 1;
+    //    startGame();
+    //}
 
-        // Update is called once per frame
-        /* void Update()
-         {
 
-         }
-         */
+    //void Option2()
+    //{
+    //    clone = Instantiate(textPrefabs[index], textPosition[textPositionPointer++].transform);
+    //    index = (2 * index) + 2;
+    //    startGame();
+    //}
+
+
+
+    //index = (2 * index) +1;
+    //clone = Instantiate(textPrefabs[index], textPosition.transform);
+    //option1.onClick.AddListener(delegate
+    //{
+    //    Destroy(textPosition.transform.GetChild(0).gameObject);
+    //    index = (2 * index) + 1;
+    //});
+
+    //option2.onClick.AddListener(delegate
+    //{
+    //    Destroy(textPosition.transform.GetChild(0).gameObject);
+    //    index = (2 * index) + 2;
+    //});
+
+
+
+
+
+    //adventure.Insert(textPrefabs, index, adventure);
+
+    //Instantiate(adventure.value, textPosition.transform);
+
+
+
+    //nextChoice(adventure);
+
+
+    // Update is called once per frame
+    /* void Update()
+     {
+
+     }
+     */
 
     public void ChangeText(bool button, GameObject text)
     {
@@ -103,6 +159,8 @@ public class GameManager : MonoBehaviour
     private void resetGame()
     {
         //Instantiate(textPrefabs[0], textPosition.transform);
+        textPositionPointer = 0;
+        numberOfPrefabs = textPrefabs.Length;
         option1.gameObject.SetActive(false);
         option2.gameObject.SetActive(false);
         start.gameObject.SetActive(true);
