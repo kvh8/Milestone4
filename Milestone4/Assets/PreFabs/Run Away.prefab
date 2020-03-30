@@ -76,15 +76,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "You have chosen to help your poor talkative friend! Unfortunatly,\r\n\t\t\t\t\t\tyou
-    were too indecisive and the beast decapitated your comrade!\r\n\t\t\t\t\t\tNow
-    it has you in its sight! It charges and you attempt the same\r\n\t\t\t\t\t\tspell
-    as before, but instead of fire, a huge gust of wind expels\r\n\t\t\t\t\t\tfrom
-    your hands. *You are not very proficient in your newly \r\n\t\t\t\t\t\tdiscovered
-    magic, are you?* You are blown away from the beast and into a tree,\r\n\t\t\t\t\t\thitting
-    your head again! The beast took no damage, and actually seems \r\n\t\t\t\t\t\tvery
-    annoyed. It charges again, but your head is making it hard for\r\n\t\t\t\t\t\tyou
-    to get up! The beast lifts its clawed arm and slashes you across\r\n\t\t\t\t\t\tthe
-    chest! And then he does it again and again! There is no hope for you,\r\n\t\t\t\t\t\tand
-    before the world fades to black, you can't help but think that \r\n\t\t\t\t\t\tmaybe
-    this whole magic stuff just wasn't meant for you. END"
+  m_Text: "You make a run for it, trying to gain as much distance between you and\r
+    the battle as possible. It seems like that was the correct choice because\r minutes
+    later you hear a gut wrenching scream before eery silence. You \rcontinue to
+    run away until you have no more stamina. Hopefully that was \rfar enough the
+    beast will not find. However, as you look around, you realize\r you are completely
+    lost and it is starting to get dark out. Perhaps you should \rmake camp for the
+    night?\r\nChoose: \nOption 1: Make Camp?\nOption 2: Carry On?"

@@ -76,7 +76,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "You are a scholar that has been studying the art of magic. You\r have
-    made a breakthrough that could change humanity\r and has led you to your current
-    situation. Will you\r stay in your tower and continue your studies? Or, will\r
-    you journey to the Capital to present your work?\r\nChoose: Stay? or Journey?"
+  m_Text: "You decide to keep your work to yourself and continue to study it. Unfortunately,
+    one of your potions exploded\r in your face, causing immense pain and partial
+    blindness.\r You scury to find a neutralizing potion; hopefully the one\r you
+    choose is the correct one. Do you pick up the blue or\r purple bottle?\r\nChoose:
+    \nOPtion 1: Blue?\nOPtion 2: Purple?"

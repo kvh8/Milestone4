@@ -7,9 +7,9 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
     [SerializeField]
-    private GameObject[] textPrefabs;
+    private GameObject[] textPrefabs, textPosition;
     [SerializeField]
-    private GameObject textPosition, welcome;
+    private GameObject  welcome;
     [SerializeField]
     private Button option1, option2, start;
 
@@ -30,7 +30,7 @@ public class GameManager : MonoBehaviour
     {
         resetGame();
 
-        GameObject clone1 = Instantiate(welcome, textPosition.transform);
+        GameObject clone1 = Instantiate(welcome, textPosition[textPositionPointer].transform);
 
         start.onClick.AddListener(delegate
         {
@@ -38,44 +38,52 @@ public class GameManager : MonoBehaviour
             start.gameObject.SetActive(false);
             option1.gameObject.SetActive(true);
             option2.gameObject.SetActive(true);
-            isPlaying = true;
             startGame();
         });
     }
     void startGame()
     {
-        //clone = Instantiate(textPrefabs[index], textPosition[textPositionPointer].transform);
-
-        //option1.onClick.AddListener(delegate
-        //{
-        //    Destroy(clone);
-        //    Option1();
-        //});
-
-        //option2.onClick.AddListener(delegate
-        //{
-        //    Destroy(clone);
-        //    Option2();
-        //});
-
-
-
-        clone = Instantiate(textPrefabs[index], textPosition.transform);
-        for (int i = 0; i < textPrefabs.Length; i++)
+        //Instantiates every prefab onto a transform
+        for(int i = 0; i < numberOfPrefabs; i++)
         {
-            option1.onClick.AddListener(delegate
-            {
-                Destroy(textPosition.transform.GetChild(0).gameObject);
-                index = (2 * index) + 1;
-                clone = Instantiate(textPrefabs[index], textPosition.transform);
-            });
-            option2.onClick.AddListener(delegate
-            {
-                Destroy(textPosition.transform.GetChild(0).gameObject);
-                index = (2 * index) + 2;
-                clone = Instantiate(textPrefabs[index], textPosition.transform);
-            });
+            clone = Instantiate(textPrefabs[i], textPosition[textPositionPointer].transform);
+            textPosition[textPositionPointer].SetActive(false);
+            textPositionPointer++;
         }
+
+        //shows the first text option
+        textPosition[index].SetActive(true);
+
+        option1.onClick.AddListener(delegate
+        {
+            textPosition[index].SetActive(false);
+            Option1();
+        });
+
+        option2.onClick.AddListener(delegate
+        {
+            textPosition[index].SetActive(false);
+            Option2();
+        });
+
+
+
+        //clone = Instantiate(textPrefabs[index], textPosition.transform);
+        //for (int i = 0; i < textPrefabs.Length; i++)
+        //{
+        //    option1.onClick.AddListener(delegate
+        //    {
+        //        Destroy(textPosition.transform.GetChild(0).gameObject);
+        //        index = (2 * index) + 1;
+        //        clone = Instantiate(textPrefabs[index], textPosition.transform);
+        //    });
+        //    option2.onClick.AddListener(delegate
+        //    {
+        //        Destroy(textPosition.transform.GetChild(0).gameObject);
+        //        index = (2 * index) + 2;
+        //        clone = Instantiate(textPrefabs[index], textPosition.transform);
+        //    });
+        //}
 
 
         //if (op1 == true)
@@ -92,20 +100,20 @@ public class GameManager : MonoBehaviour
 
 
 
-    //void Option1()
-    //{
-    //    clone = Instantiate(textPrefabs[index], textPosition[textPositionPointer++].transform);
-    //    index = (2 * index) + 1;
-    //    startGame();
-    //}
+    void Option1()
+    {
+        index = (2 * index) + 1;
+        textPosition[index].SetActive(true);
+        startGame();
+    }
 
 
-    //void Option2()
-    //{
-    //    clone = Instantiate(textPrefabs[index], textPosition[textPositionPointer++].transform);
-    //    index = (2 * index) + 2;
-    //    startGame();
-    //}
+    void Option2()
+    {
+        index = (2 * index) + 2;
+        textPosition[index].SetActive(true);
+        startGame();
+    }
 
 
 

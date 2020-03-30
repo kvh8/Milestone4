@@ -76,18 +76,13 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "You decide to make camp. You set up a little fire pit and put your\r sleeping
-    rags next to the fire. Hopefully the fire will ward off any predators that might
-    be lurking in the shadows. You eat some jerky that\r you packed for the journey
-    and head to sleep. Hopefully you will be able to\r find your way in the morning.
-    \r Oh no! Something has woken you up in the middle of the night. The fire has
-    died\r down, but you begin to here a slight russle in the bushes around you.\r
-    \n\n\"Hello?\" you call out, but there is no answer. Another rustle comes  from
-    behind you.\r You turn but see nothing. Then something slices the back of your
-    calf from behind!\r You turn and see a scaly tail disappear into the bushes.
-    A few minutes pass and you\r begin to feel light headed. All of a sudden you
-    collapse! You can no longer move!\r The animal has paralyzed you! You hear a
-    rustle from behind you and a weird mixture\r of a hiss and growl. It slowly approaches
-    from behind. The animal appears above your \r head, all scaly with razor sharp
-    teeth. It looks down at you before striking your throat,\r ending your puny little
-    life. \nGAME OVER!"
+  m_Text: "The right tunnel seems to slowly decend further into the mountain, and
+    the further you go the hotter it becomes. Eventually,\r it becomes so hot that
+    you are sweating through your clothes, but you keep moving forward. About 2 hours
+    into this trip,\r you see a light at the end of the tunnel. Thinking it is the
+    way out, you sprint to the end hoping to get out of the \rblistering heat. Unfortunatly,
+    you are not a very lucky adventurer and you trip on a rock near the end of the
+    tunnel. This\r causes you to fly forward, directly into a pool of lava. That
+    light at the end of the tunnel was actually from a lava lake\r the tunnel lead
+    to. You are not a very smart or skillful adventurer. And thus, your great adventure
+    ends. \nGame Over!!\n"

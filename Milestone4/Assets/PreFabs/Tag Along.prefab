@@ -76,13 +76,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "The beast charges! You quickly try to summon a flame\r to protect you,
-    but your lack of practice and nerves\r causes you to summon an explosion instead!
-    This \rinadvertently saves your life because you are thrown\r back and the monsters
-    face is serverely burned! This gives the adventurer enough time to finish it
-    off. He lunges at the beast with his sword and stabs it in the \rheart, ending
-    its life. \r\n\nIn the aftermath of the battle, you are still groggy from the
-    explosion. The adventurer runs to your side to\r help you up.\r\n\n\"Thank you
-    so much for coming to my aid! I don't know what I would have done if you had
-    not shown up! Please, let me return the favor by travelling with you to repay
-    \rthis debt.\"\r\nChoose: Tag Along? or Solo?"
+  m_Text: "You have decided the adventurer might be of some use to you, so\r you
+    let them accompany you on this trip. Unfortunatly, this\r adventurer is very
+    talkative and gives away your location to another huge beast! The beast engages
+    with the adventurer in combat! This is your chance! You can run away now or stay
+    and\r help your adventurer!\r\nChoose: \nOption 1: Aid?\nOption 2: Run Away?"

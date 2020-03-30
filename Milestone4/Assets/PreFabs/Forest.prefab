@@ -76,18 +76,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "You decide to make camp. You set up a little fire pit and put your\r sleeping
-    rags next to the fire. Hopefully the fire will ward off any predators that might
-    be lurking in the shadows. You eat some jerky that\r you packed for the journey
-    and head to sleep. Hopefully you will be able to\r find your way in the morning.
-    \r Oh no! Something has woken you up in the middle of the night. The fire has
-    died\r down, but you begin to here a slight russle in the bushes around you.\r
-    \n\n\"Hello?\" you call out, but there is no answer. Another rustle comes  from
-    behind you.\r You turn but see nothing. Then something slices the back of your
-    calf from behind!\r You turn and see a scaly tail disappear into the bushes.
-    A few minutes pass and you\r begin to feel light headed. All of a sudden you
-    collapse! You can no longer move!\r The animal has paralyzed you! You hear a
-    rustle from behind you and a weird mixture\r of a hiss and growl. It slowly approaches
-    from behind. The animal appears above your \r head, all scaly with razor sharp
-    teeth. It looks down at you before striking your throat,\r ending your puny little
-    life. \nGAME OVER!"
+  m_Text: "You turn left to the dense, dark forest, unsure what great adventure awaits.
+    Upon entering the forest\r everything gets darker and eery. Twigs snap and crows
+    caw. You are all alone out here. As you move along,\r the path becomes more overgrown
+    and hard to trek, but eventually you come across a clearing. It seems empty\r
+    so you step out of the brush, but suddenly, a roar shatters the silence and out
+    bounds a jigantic mosnter! It towers over you and has huge, sharp claws! It looks
+    like it hasn't noticed you yet, will you engage the monster?\rOr will you flee?\r\nChoose:
+    \nOption 1: Engage?\nOption 2: Flee?"

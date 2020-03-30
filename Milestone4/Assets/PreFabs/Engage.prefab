@@ -76,18 +76,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "You decide to make camp. You set up a little fire pit and put your\r sleeping
-    rags next to the fire. Hopefully the fire will ward off any predators that might
-    be lurking in the shadows. You eat some jerky that\r you packed for the journey
-    and head to sleep. Hopefully you will be able to\r find your way in the morning.
-    \r Oh no! Something has woken you up in the middle of the night. The fire has
-    died\r down, but you begin to here a slight russle in the bushes around you.\r
-    \n\n\"Hello?\" you call out, but there is no answer. Another rustle comes  from
-    behind you.\r You turn but see nothing. Then something slices the back of your
-    calf from behind!\r You turn and see a scaly tail disappear into the bushes.
-    A few minutes pass and you\r begin to feel light headed. All of a sudden you
-    collapse! You can no longer move!\r The animal has paralyzed you! You hear a
-    rustle from behind you and a weird mixture\r of a hiss and growl. It slowly approaches
-    from behind. The animal appears above your \r head, all scaly with razor sharp
-    teeth. It looks down at you before striking your throat,\r ending your puny little
-    life. \nGAME OVER!"
+  m_Text: "You charge the monster with your sword raised high and a mighty yell!
+    The beast snaps its head to you and\r narrows its eyes before unleashing a great
+    roar much louder and terror inducing than yours. Then it charges\r and goes to
+    slash at you, but your luck must be high because miraculously you dodged the
+    attack and slashed\r its hind leg with your sword, drawing blood. The beast throws
+    its head back and roars in pain. It turns to \r you and slashes your chest! The
+    pain is too much and you can not dodge the next one. It keeps slashing until\r
+    all that is left of you is a shredded pile of human flesh. And thus, your great
+    adventure has come to an end. \nGame Over!!"

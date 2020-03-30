@@ -79,4 +79,5 @@ MonoBehaviour:
   m_Text: "You are a scholar that has been studying the art of magic. You\r have
     made a breakthrough that could change humanity\r and has led you to your current
     situation. Will you\r stay in your tower and continue your studies? Or, will\r
-    you journey to the Capital to present your work?\r\nChoose: Stay? or Journey?"
+    you journey to the Capital to present your work?\r\nChoose: \nOption 1: Stay?
+    \nOption 2: Journey?"
