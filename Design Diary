@@ -21,5 +21,14 @@ I am struggling making the binary node tree in C#, mainly in unity. I am not sur
 lab. I have an idea of how to do the logic for the choices in unity, and that mainly involves buttons that lead to the next in the search 
 tree. But I just need help creating the search tree. I am not sure where to star/convert from C++.
 
+03/29
 
+Okay so I have done quite a bit of work and kept forgetting to update my diary after. Anyway, I keep messing with the insert in the
+binary tree and it just does not want to work. I keep running into the problem that it says the binary node root is null and stops there.
+I have tried so many different possibilities and none have worked. As of now, I am just trying to get it to show up from my array. I
+keep going back and forth between just doing it from the array and trying to make the search tree. I am so close with the array, I just
+can't figure out how to make the text appear on the button click because the cloning is being funky. So, I am looking up solutions for
+that. Once I get that done, I am going to work on inserting it from the array into the BinaryNode and then using that to select.
+
+I am so tired, mostly because I feel like I am so close and yet I am just barely missing it. But! The grind must continue!
 
