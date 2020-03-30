@@ -34,8 +34,9 @@ I am so tired, mostly because I feel like I am so close and yet I am just barely
 
 03/30
 
-I finally got the game to work! However, I was unable to get the search tree to work in unity. Although I do have a C# project that
-is not with unity that the binary tree works for. I still need to upload it though.
+I finally got the game to work! However, I was unable to get the search tree to work in unity. No matter what I did, I was not able to
+insert the values from the array into the search tree. There is a lot of funky code in the script at the moment. I hate that I did this
+to myself. If I had worked on it during the break, I definitely would have gotten it within the scope of the parameters.
 
 
 Reflection:
